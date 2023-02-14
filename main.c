@@ -204,6 +204,8 @@ int main(int argc, char **argv) {
             printf("Number of seeds: %d\n", inc);
     }
 
+    print("\n1 - Original image\n2 - Styled image\n3 - Seeds image\n");
+
     tex[0] = SOIL_create_OGL_texture((unsigned char *)pic[0].img, width, height, SOIL_LOAD_RGB, SOIL_CREATE_NEW_ID, 0);
     tex[1] = SOIL_create_OGL_texture((unsigned char *)pic[1].img, width, height, SOIL_LOAD_RGB, SOIL_CREATE_NEW_ID, 0);
     tex[2] = SOIL_create_OGL_texture((unsigned char *)pic[2].img, width, height, SOIL_LOAD_RGB, SOIL_CREATE_NEW_ID, 0);
