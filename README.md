@@ -13,6 +13,7 @@ The following command execute the application.
 ```
 ./artistic [imageFileName].jpg
 ```
+##
 <div align="center">  
   <img src="https://cdn.discordapp.com/attachments/1076157666986049598/1076178984817135657/imgsty.png" alt="Image preview" /> 
 </div>
